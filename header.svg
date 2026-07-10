@@ -1,0 +1,68 @@
+<svg viewBox="0 0 1200 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Luc — IT Administrator at Vogel's">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#18213c"/>
+      <stop offset="1" stop-color="#0f1526"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.26" r="0.62">
+      <stop offset="0" stop-color="#6bd0c4" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#6bd0c4" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.6" cy="1.6" r="1.4" fill="#2a3457"/>
+    </pattern>
+  </defs>
+
+  <!-- base -->
+  <rect x="0" y="0" width="1200" height="340" rx="22" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="340" rx="22" fill="url(#dots)" opacity="0.55"/>
+  <rect x="0" y="0" width="1200" height="340" rx="22" fill="url(#glow)"/>
+  <rect x="1.25" y="1.25" width="1197.5" height="337.5" rx="21" fill="none" stroke="#2d3a5c" stroke-width="1.5"/>
+
+  <!-- corner brackets -->
+  <g stroke="#6bd0c4" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <path d="M26 58 V26 H58"/>
+    <path d="M1142 26 H1174 V58"/>
+    <path d="M26 282 V314 H58"/>
+    <path d="M1142 314 H1174 V282"/>
+  </g>
+
+  <!-- character -->
+  <g transform="translate(0,4)">
+    <!-- shoulders -->
+    <path d="M566 138 C578 118 590 112 600 112 C610 112 622 118 634 138"
+          fill="none" stroke="#e9eef6" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- neck -->
+    <path d="M593 106 V113 M607 106 V113" stroke="#e9eef6" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- head -->
+    <circle cx="600" cy="84" r="22" fill="#1b2440" stroke="#e9eef6" stroke-width="2.5"/>
+    <!-- face -->
+    <circle cx="592.5" cy="82" r="2" fill="#e9eef6"/>
+    <circle cx="607.5" cy="82" r="2" fill="#e9eef6"/>
+    <path d="M591 90 Q600 96 609 90" fill="none" stroke="#e9eef6" stroke-width="2" stroke-linecap="round"/>
+    <!-- headset -->
+    <path d="M572 78 A30 30 0 0 1 628 78" fill="none" stroke="#6bd0c4" stroke-width="3" stroke-linecap="round"/>
+    <rect x="566" y="74" width="9" height="20" rx="4" fill="#6bd0c4"/>
+    <rect x="625" y="74" width="9" height="20" rx="4" fill="#6bd0c4"/>
+    <path d="M570 94 C563 108 571 119 587 119" fill="none" stroke="#6bd0c4" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="587" cy="119" r="2.6" fill="#6bd0c4"/>
+  </g>
+
+  <!-- name -->
+  <text x="600" y="204" text-anchor="middle"
+        font-family="'Segoe UI', system-ui, -apple-system, Helvetica, Arial, sans-serif"
+        font-size="60" font-weight="700" letter-spacing="1" fill="#e9eef6">Luc</text>
+
+  <!-- accent underline -->
+  <rect x="574" y="220" width="52" height="3" rx="1.5" fill="#6bd0c4"/>
+
+  <!-- terminal subtitle -->
+  <text x="600" y="262" text-anchor="middle"
+        font-family="'Cascadia Code', 'Consolas', ui-monospace, 'SF Mono', Menlo, monospace"
+        font-size="20" fill="#aab6d3"><tspan fill="#6bd0c4">PS C:\&gt;</tspan>&#160;IT Administrator @ Vogel's&#160;<tspan fill="#6bd0c4">▮</tspan></text>
+
+  <!-- location -->
+  <text x="600" y="293" text-anchor="middle"
+        font-family="'Segoe UI', system-ui, sans-serif"
+        font-size="13" letter-spacing="4" fill="#6c789e">EINDHOVEN · NETHERLANDS</text>
+</svg>

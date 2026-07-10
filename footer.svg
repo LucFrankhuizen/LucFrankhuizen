@@ -1,0 +1,22 @@
+<svg viewBox="0 0 1200 96" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141b31"/>
+      <stop offset="1" stop-color="#0f1526"/>
+    </linearGradient>
+    <pattern id="fdots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.6" cy="1.6" r="1.4" fill="#28324f"/>
+    </pattern>
+  </defs>
+  <rect x="0" y="0" width="1200" height="96" rx="18" fill="url(#fbg)"/>
+  <rect x="0" y="0" width="1200" height="96" rx="18" fill="url(#fdots)" opacity="0.5"/>
+  <rect x="1.25" y="1.25" width="1197.5" height="93.5" rx="17" fill="none" stroke="#2d3a5c" stroke-width="1.5"/>
+  <g stroke="#6bd0c4" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <path d="M26 50 V26 H50"/>
+    <path d="M1150 26 H1174 V50"/>
+    <path d="M26 70 V70 H50" opacity="0"/>
+  </g>
+  <text x="600" y="55" text-anchor="middle"
+        font-family="'Cascadia Code', 'Consolas', ui-monospace, monospace"
+        font-size="18" fill="#8894b6"><tspan fill="#6bd0c4">&gt;</tspan>&#160;mostly building things that live behind the firewall — say hi anyway</text>
+</svg>
